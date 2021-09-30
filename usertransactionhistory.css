@@ -1,0 +1,99 @@
+
+.UserTransaction-screen {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    /* border-color: black;
+    border-style: double; */
+    width: inherit;
+    height: inherit;
+}
+
+#UserTransaction-screen-header {
+    /* height: 10vh; Removed by akash */
+    background-color: white;
+    border-color: black;
+    border-style: double;
+}
+
+#UserTransaction-screen-body {
+    height: 90vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: red;
+}
+
+#UserTransaction-screen-header-container {
+    display: flex;
+    flex-direction: row;
+    /* padding: 43px; removed by akash */
+}
+#transactionbody {
+    background-color: white;   
+    /* border-color: black;
+    border-style: solid; */
+    display: flex;
+    flex-direction: column;
+}
+#transactionhistorybody{
+    background-color: white;
+    width: 30rem;
+    border-color: black;
+    border-style: double;
+    margin: 26px;
+}
+
+
+
+/* Akash's code below */
+.inlinediv {
+    display: flex;
+    padding: 0.2rem;
+}
+
+.inlinediv div{
+    /* display: inline-block; */
+}
+
+
+.userimage {
+    background: lightgreen;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    place-items: center;
+    place-content: center;
+}
+
+.userinfo {
+    padding-left: 0.5rem;;
+}
+
+.username {
+    font-size: 1rem;
+}
+
+.usernumber {
+    font-size: 0.75rem;
+}
+
+.backarrow {
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+.floated {
+    float:left;
+    margin-right:5px;
+ }
